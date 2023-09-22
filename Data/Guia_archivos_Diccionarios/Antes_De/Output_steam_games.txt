@@ -1,0 +1,62 @@
+publisher:	Empresa publicadora del juego
+
+genres:		Una lista de los géneros que representa al juego
+
+app_name:	Nombre del juego
+	**Aquí, el nombre sería algo así como lo que se conoce en la comunidad al
+	contrario que el título indica como lo más formal o lo oficial. Por ejemplo
+		nombre del juego: 'The Legend of Zelda: Breath of the Wild' y 
+		título del juego: 'The Legend of Zelda: Breath of the Wild (2017)'
+	o también
+		nombre del juego: 'The Dream Machine'
+		título del juego: 'The Dream Machine: Chapter 4'**
+
+title:		Título del juego
+
+url:		URL de la publicación del juego
+
+release_date:	Fecha de lanzamiento del juego, está en AAAA-MM-DD
+
+tags:		Una lista de las etiquetas del juego, es decir, las etiquetas 
+			mediante la cual se puede lograr encontrar al juego en la 
+			plataforma
+
+reviews_url: 	URL de las reviews del juego
+
+discount_price:	Precio de descuento del juego, la mayoría son Nan
+
+specs:		Es una lista con las especificaciones del juego, por ejemplo uno
+		podría tener las siguientes: 
+		["Single-player", "Multi-player", "Downloadable Content", 
+		"Steam Achievements"], otro estas otras:
+		["Single-player", "Steam Achievements", "Steam Trading Cards", 
+		"Partial Controller Support", "Steam Cloud", "Steam Leaderboards"]
+
+price:		Precio del juego
+
+early_access:	True or False si el juego es de acceso temprano o no. Esto significa
+		que antes si es True, entonces el juego está disponible para el 
+		público antes de su fecha de lanzamiento oficial y false si no es asi
+
+id:		id único del juego
+
+metascore:	"Metascore" es una abreviatura de "Metacritic Score" y se refiere a 
+		una puntuación o puntaje asignado a un producto, como una película, 
+		un videojuego o un álbum musical, por parte del sitio web Metacritic. 
+		Metacritic es una plataforma que recopila reseñas y críticas de 
+		medios especializados y críticos de todo el mundo y calcula un 
+		promedio ponderado de esas calificaciones para generar un puntaje 
+		general o "Metascore."
+
+		Puntuaciones entre 90 y 100 suelen indicar que el producto ha sido 
+		altamente elogiado por los críticos y es considerado excepcional.
+		Puntuaciones entre 70 y 89 indican que el producto ha recibido 
+		críticas generalmente favorables.
+		Puntuaciones por debajo de 70 pueden sugerir que el producto ha 
+		recibido críticas mixtas o negativas.
+
+developer:	Empresas desarrollador(as) del juego. Aquí una sospecha, cuando hay
+		una coma entonces probablemente es un separador de otra empresa,
+		sin embargo, si hay luego de esa coma letras mayúsculas entonces 
+		solamente son las siglas de la empresa antes de la coma, también
+		hay que considerar al separador 'y' o quizás '.' o quizás ';'

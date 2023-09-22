@@ -1,0 +1,19 @@
+user_id:	id único del usuario
+
+items_count:	El número de juegos en su biblioteca
+
+steam_id:	id único de steam
+
+user_url:	El url asociado con el perfil de steam del usuario
+
+items:		Una lista de diccionarios, donde cada diccionario está asociado con
+		un juego de la plataforma
+	item_id:		id único del juego
+	item_name:		El nombre del juego
+	playtime_forever: 	Indica el tiempo que el usuario ha pasado en el 
+				juego (no sé si está en min u h)
+	playtime_2weeks: 	Indica el tiempo que el usuario ha pasado en el 
+				juego durante las dos últimas semanas (no sé si 
+				está en min u h)
+		**Sospecho que está en minutos**
+	

@@ -1,0 +1,19 @@
+user_id:	id único para el usuario
+
+user_url:	El url asociado con el perfil de steam del usuario
+
+reviews:	Una lista de diccionarios, donde cada diccionario representa una 
+		review de algún juego que el usuario haya jugado
+	funny:		Representa el número de personas que encontraron divertido
+				la review. El formato es: 'X person/people found this 
+				review funny'
+	posted:		La fecha de publicación de la review
+	last_edited:	La última fecha de modificación de la review
+	item_id:	id del juego asociado a la review
+	helpful:	Indica el número de personas y el porcentaje que 
+			encontraron útil esta review. El formato es: 'A of B people 
+			([A*100/B]%) found this review helpful'. O también si no hay
+			valoraciones, entonces se le coloca: 'No ratings yet'
+	recommend:	True or False, indica si el usuario recomienda el juego o no.
+	review:		Aquí el usuario se explaya comentando su interacción con el 
+			juego.
