@@ -1,0 +1,10 @@
+Sus columnas son:
+
+user_id: El id único del usuario
+
+items_count: La cantidad de juegos que tiene el usuario en su Biblioteca
+
+user_url: La url del perfil del usuario	
+
+user_items_ids: Sus filas son listas que representan los ids de los juegos
+que el usuario tiene en su Biblioteca

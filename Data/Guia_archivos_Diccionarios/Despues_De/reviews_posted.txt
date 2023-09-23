@@ -1,0 +1,9 @@
+Sus columnas son:
+
+user_id: El id único de cada usuario
+
+posted: La fecha de publicación de la review
+
+last_edited	recomendation: La última fecha de edición de la review
+
+comment: 0 si es negativo, 1 si es neutral, 2 si es positivo

@@ -1,0 +1,9 @@
+Sus columnas son:
+
+user_id: El id único del usuario
+
+porcentaje_recomendacion: EL porcentaje de recomendación extraido de la 
+columna 'reviews', ya que en la columna 'reviews' las filas eran listas 
+de diccionarios, entonces se cuenta la cantidad de valores booleanos 
+true's obtenido de la clave 'recommend', y luego este valor se divide 
+entre el tamaño de la lista y finalmente se multiplica por 100  

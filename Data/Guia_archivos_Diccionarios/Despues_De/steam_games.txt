@@ -1,0 +1,19 @@
+Sus columnas son:
+
+id: El id único de cada juego	
+
+genres: Cada fila es una lista de géneros asociados al juego	
+
+app_name: El nombre del juego	
+
+release_date: Fecha de lanzamiento del juego	
+
+discount_price: El valor del descuento por la compra de un juego
+
+price: El precio del juego sin descuento	
+
+developer: La empresa desarrolladora del juego
+
+especificaciones: Las especificaciones del juego, cada filas es una lista
+de especificaciones del juego, esta se obtuvo a partir de tags, specs y 
+genres, es una mezcla

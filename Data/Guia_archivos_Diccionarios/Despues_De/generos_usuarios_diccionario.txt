@@ -1,0 +1,32 @@
+Es un diccionario que tiene como claves mayores a:
+['Action', 
+'Indie', 
+'RPG', 
+'Adventure', 
+'Simulation', 
+'Strategy', 
+'Free to Play', 
+'Massively Multiplayer', 
+'Casual', 
+'Early Access', 
+'Sports', 
+'Racing', 
+'Utilities', 
+'Design &amp; Illustration', 
+'Web Publishing', 
+'Video Production', 
+'Animation &amp; Modeling', 
+'Software Training', 
+'Audio Production', 
+'Education', 
+'Photo Editing', 
+'Accounting']
+
+y luego sus valores son nuevamente son diccionarios que tienen como 
+claves a los ids de los usuarios. La misma idea de generos_ranking
+pero esta vez se van anotando los ids de los usuarios que han jugado
+en un genero (por jugar un juego).
+Los valores de cada uno de estos subdiccionarios son listas cuya 
+primera componente es la url del usuario y la segunda componente es
+la cantidad de minutos que el usuario ha destinado al género, analizado
+en PlayTimeForever
